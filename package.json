@@ -1,0 +1,12 @@
+{
+  "name": "w2-calculate-surfaces",
+  "version": "1.0.0",
+  "description": "Correction Matrix for TypeScript Exercise (Total Points: 20)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"start": "tsc --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}

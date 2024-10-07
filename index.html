@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Geometry Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Geometry Calculator</h1>
+      </header>
+      <main>
+        <section class="input-section">
+          <div class="input-container">
+            <label for="shape">Select Shape:</label>
+            <select id="shape">
+              <option value="rectangle">Rectangle</option>
+              <option value="square">Square</option>
+              <option value="circle">Circle</option>
+            </select>
+          </div>
+          <div class="input-container">
+            <label for="length">Length/Radius:</label>
+            <input type="number" id="length" placeholder="Enter length/radius" />
+          </div>
+          <div class="input-container" id="width-container">
+            <label for="width">Width:</label>
+            <input type="number" id="width" placeholder="Enter width" />
+          </div>
+          <button id="calculate">Calculate</button>
+        </section>
+        <section class="result-section">
+          <p class="result">Area: <span id="area">0</span></p>
+          <p class="result">Perimeter: <span id="perimeter">0</span></p>
+        </section>
+        <section class="shape-list-section">
+          <ul id="shape-list">
+            <!-- Add shapes here -->
+          </ul>
+        </section>
+      </main>
+    </div>
+    <script src="./script-bonus/script.js"></script>
+  </body>
+</html>
